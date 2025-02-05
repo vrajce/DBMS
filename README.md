@@ -25,3 +25,5 @@ This repository contains neatly organized notes and resources for learning Datab
 ---
 
 Keep learning and happy coding! 💻✨
+
+[constraint.md]
