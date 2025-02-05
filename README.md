@@ -26,4 +26,5 @@ This repository contains neatly organized notes and resources for learning Datab
 
 Keep learning and happy coding! 💻✨
 
-1. Constraints [Constraint.md]
+## Sections
+- [Constraint](Constraint.md/)
