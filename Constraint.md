@@ -53,6 +53,8 @@ CREATE TABLE employees (
 ## 4. FOREIGN KEY Constraint
 The `FOREIGN KEY` constraint establishes a relationship between two tables. It ensures that a column’s value in one table matches a value in another table's primary or unique key.
 
+Referential integrity constraint.
+
 ### Example:
 ```sql
 CREATE TABLE departments (
