@@ -8,6 +8,8 @@ Constraints in Oracle SQL are rules enforced on data in a table to maintain accu
 ## 1. NOT NULL Constraint
 The `NOT NULL` constraint ensures that a column cannot contain NULL values. It guarantees that every row must have a value for this column.
 
+Domain Constraint.
+
 ### Example:
 ```sql
 CREATE TABLE employees (
@@ -21,6 +23,8 @@ CREATE TABLE employees (
 ## 2. UNIQUE Constraint
 The `UNIQUE` constraint ensures that all values in a column or combination of columns are distinct. It allows NULL values but ensures that non-NULL values are unique.
 
+tuple uniqueness constraints.
+
 ### Example:
 ```sql
 CREATE TABLE employees (
@@ -33,6 +37,8 @@ CREATE TABLE employees (
 
 ## 3. PRIMARY KEY Constraint
 The `PRIMARY KEY` constraint is a combination of `NOT NULL` and `UNIQUE`. It ensures that each row in a table has a unique and non-NULL identifier. A table can have only one primary key.
+
+Tuple uniqueness constraints.
 
 ### Example:
 ```sql
